@@ -21,7 +21,7 @@ html {
 body{
     background-color: var(--primario);
     font-size: 1.6rem;
-    line-height: 1.5;
+   
 }
 
 p {
@@ -103,7 +103,7 @@ h3 {
 
 .grid {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
