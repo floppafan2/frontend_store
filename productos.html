@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Store</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="Logotipo">
+            </a>
+        </header>
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="index.html">Tienda</a>
+            <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+        </nav>
+        <main class="contenedor">
+            <h1>Producto</h1>
+            <div class="producto-detalle">
+                <img src="img/1.jpg" alt="Imagen del Producto">
+                <div>
+                    <p>Descripción detallada del Producto 1. Este producto es ideal para tus necesidades diarias y ofrece una excelente relación calidad-precio.</p>
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>--Seleccionar Talla--</option>
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__texto">Todos los derechos reservados Frontend Store 2026.</p>
+        </footer>
+    </body>
+</html>
